@@ -18,7 +18,6 @@ export class MemberListResolver implements Resolve<User[]>{
                 this.alertify.error('Problem retieving data');
                 this.router.navigate(['/home']);
                 return of(null);
-            
             })
         );
         }
