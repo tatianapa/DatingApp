@@ -5,3 +5,8 @@
     width: 100% !important;
     justify-content: flex-end !important;
    }
+img{
+    max-height: 50px;
+    border: 2px solid white;
+    display: inline;
+}
